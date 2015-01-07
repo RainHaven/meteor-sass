@@ -1,7 +1,7 @@
 Package.describe({
   name: 'rainhaven:sass',
   summary: 'Style with attitude and autoprefixer.',
-  version: "1.0.0",
+  version: "1.0.1",
   git: "https://github.com/RainHaven/meteor-sass.git"
 });
 
@@ -24,7 +24,7 @@ Package.on_test(function (api) {
            'tinytest',
            'jquery',
            'templating']);
-  api.use(['rainhaven:scss']);
+  api.use(['rainhaven:sass']);
   api.add_files(['test/scss_tests.html', 'test/scss_tests.js'], 'client');
   api.add_files(['test/scss_tests.scss'], 'client',  {isTest:true});
 });
