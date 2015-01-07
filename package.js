@@ -2,7 +2,7 @@ Package.describe({
   name: 'rainhaven:sass',
   summary: 'Style with attitude and autoprefixer.',
   version: "1.0.0",
-  git: " /* none */ "
+  git: "https://github.com/RainHaven/meteor-sass.git"
 });
 
 // This is originally from fourseven/meteor-scss
